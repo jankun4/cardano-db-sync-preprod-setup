@@ -1,0 +1,3 @@
+[submodule "db-sync/cardano-db-sync"]
+	path = db-sync/cardano-db-sync
+	url = https://github.com/input-output-hk/cardano-db-sync.git
