@@ -13,7 +13,6 @@ cd -
 cd cardano-node
 chmod +x start.sh
 ./start.sh
-cd -
 ```
 
 # build db sync
@@ -36,6 +35,8 @@ cd -
 
 # run db sync
 
+```bash
 cd db-sync
 chmod +x start.sh
 ./start.sh
+```
