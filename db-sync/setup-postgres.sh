@@ -6,4 +6,4 @@ sleep 3
 
 cd cardano-db-sync
 
-PGPASSFILE=../config/pgpass-preprod scripts/postgresql-setup.sh --createdb
+PGPASSFILE=config/pgpass-preprod scripts/postgresql-setup.sh --createdb
