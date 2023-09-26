@@ -5,5 +5,5 @@ docker run --name db-sync-postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWOR
 sleep 3
 
 cd cardano-db-sync
-
+chmod 0600 config/pgpass-preprod
 PGPASSFILE=config/pgpass-preprod scripts/postgresql-setup.sh --createdb
