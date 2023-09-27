@@ -1,0 +1,18 @@
+{
+  "dbsyncconfig": {
+    "host": "localhost",
+    "dbname": "cexplorer",
+    "user": "postgres",
+    "password": "v8hlDV0yMAHHlIurYupj",
+    "port": 6432
+  },
+  "fakedbsyncconfig": {
+    "host": "localhost",
+    "dbname": "vva",
+    "user": "postgres",
+    "password": "v8hlDV0yMAHHlIurYupj",
+    "port": 7432
+  },
+  "port": 9999,
+  "host": "127.0.0.1"
+}
